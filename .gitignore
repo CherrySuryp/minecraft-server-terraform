@@ -1,0 +1,4 @@
+terraform/**/.terraform
+terraform/**/*backend*
+terraform/**/*.tfvars*
+terraform/docker/**/*.jar
