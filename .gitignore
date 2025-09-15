@@ -1,4 +1,5 @@
+*.DS_Store*
 terraform/**/.terraform
 terraform/**/*backend*
 terraform/**/*.tfvars*
-terraform/docker/**/*.jar
+docker/**/*.jar

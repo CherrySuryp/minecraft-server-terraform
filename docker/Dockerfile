@@ -6,5 +6,5 @@ ENV \
     NEOFORGE_VERSION="21.1.208" \
     MAX_MEMORY="8G"
 
-RUN  mkdir -p /data/mods /data/plugins
-COPY mods/* /data/mods
+RUN mkdir -p /mods
+COPY mods/ /mods/
